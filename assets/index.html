@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/pages/index/index.css">
+    <link rel="shortcut icon" href="./images/global/favcon-ultrarrevisa-2.svg" type="image/x-icon">
+    <title>Ultrarrevisa</title>
+</head>
+<body onload="diasRestantes()">
+    <main>
+        <section class="diasRestantes">
+            <p id="dias">Faltam 12 dias para a UFRR</p>
+        </section>
+        <section class="titulo">
+            <h1 class="texto1">Qual assunto da <span>UFRR</span> revisar?</h1>
+            <button class="btn1" onclick="gerar()">GERAR</button>
+        </section>
+
+        <section class="resultado" id="res">
+            
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-btns">
+            <a href="restantes.html"><button class="btn-footer">Restantes</button></a>
+            <a href="cronograma.html"><button class="btn-footer">Cronograma</button></a>
+            <a href="estudados.html"><button class="btn-footer">Estudados</button></a>
+        </section>
+    </footer>
+
+    <script src="js/pages/cronograma/alert.js"></script>
+    <script src="js/pages/index/dia-semana.js"></script>
+    <script src="./js/pages/index/gerar/gerar-assunto.js"></script>
+    <script src="js/global/data.js"></script>
+    <script src="js/global/cronograma-materias.js"></script>
+    <script src="js/pages/index/carregar-select.js"></script>
+    <script src="js/pages/index/dias-restantes.js"></script>
+    <script src="js/pages/index/gerar/salvando-assunto-estudado.js"></script>
+    <script src="js/pages/estudados/estudados-inserir.js"></script>
+</body>
+</html>

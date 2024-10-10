@@ -1,0 +1,10 @@
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.titulo .texto2 {
+    margin-top: 5em;
+}

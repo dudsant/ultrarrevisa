@@ -1,0 +1,11 @@
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.titulo span {
+    color: #fff;
+    font-weight: 600;
+}

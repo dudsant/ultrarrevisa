@@ -1,0 +1,4 @@
+@import '../../global/global.css';
+
+@import './partials/section-titulo-cronograma.css';
+@import './partials/section-tabela.css';

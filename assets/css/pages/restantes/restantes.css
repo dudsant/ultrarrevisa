@@ -1,0 +1,10 @@
+@import '../../global/global.css';
+
+/* Importando estilos da página estudados pq é a mesma coisa */
+
+@import '../estudados/partials/section-matérias.css';
+@import '../estudados/partials/section-titulo-estudados.css';
+
+body {
+    background-image: linear-gradient(45deg, var(--azul-escuro), var(--azul-escuro));
+}

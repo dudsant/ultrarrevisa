@@ -1,0 +1,17 @@
+.resultado {
+    margin-top: 4em;
+    cursor: default;
+}
+
+.resultado p {
+    color: var(--branco);
+    font-size: 15pt;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+.resultado span {
+    color: #fff;
+    font-size: 15pt;
+    font-weight: 500;
+}

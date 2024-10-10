@@ -1,0 +1,38 @@
+.matérias {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5em;
+}
+
+#materia-div {
+    margin-bottom: 3em;
+}
+
+
+
+h3.texto3 {
+    color: var(--cinza-azulado);
+    font-size: 18px;
+    margin-bottom: 1.5em;
+}
+
+h4.texto4 {
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: .5em;
+}
+
+#materia-div p {
+    color: var(--branco);
+    margin-bottom: 10px;
+}
+
+#materia-div div {
+    margin-bottom: 3em;
+}
+
+.espaço-vazio {
+    width: 100%;
+    height: 10em;
+}
