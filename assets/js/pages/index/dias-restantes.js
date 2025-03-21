@@ -1,17 +1,12 @@
 function diasRestantes() {
     let diasRestantesDOM = document.getElementById('dias')
-    let data = new Date()
-    let dia = data.getDate()
-    let mês = data.getMonth() + 1
-    let diasRestantes = ''
+    const hoje = new Date()
+    //Data atualizada 2025
+    const dataUFRR = new Date('2025-11-24')
+    const diferenca = dataUFRR - hoje
+
+    const diasRestantes = Math.ceil(diferenca / (60 * 60 * 24 * 1000))
     
-    if (mês == 10){
-        diasRestantes = (31 - dia) + 24
-    } else if (mês == 11) {
-        diasRestantes = 24 - dia
-    } else if (dia == 24 && mês == 11) {
-        diasRestantes = 'É hojeeeeeeee'
-    }
 
     diasRestantesDOM.innerText = `Faltam ${diasRestantes} dias para a UFRR`
 }
