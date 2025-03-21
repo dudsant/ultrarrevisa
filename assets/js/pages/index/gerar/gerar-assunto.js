@@ -15,6 +15,7 @@ function gerar() {
         gerarAssunto1()
         gerarAssunto2()
         salvarAssuntosGerados()
+        removerAssunto()
 
     }
     

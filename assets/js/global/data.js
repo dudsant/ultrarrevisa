@@ -243,17 +243,24 @@ const matérias = {
     física: física
 }
 
-//Salvando no localStorage
+//Salvando cópia no localStorage
 
-function salvarDadosLocalStorage() {
+let cópiaPortuguês = JSON.parse(JSON.stringify(português))
+let cópiaEspanhol = JSON.parse(JSON.stringify(espanhol))
+let cópiaMatemática = JSON.parse(JSON.stringify(matemática))
+let cópiaBiologia = JSON.parse(JSON.stringify(biologia))
+let cópiaGeografia = JSON.parse(JSON.stringify(geografia))
+let cópiaHistória = JSON.parse(JSON.stringify(história))
+let cópiaQuímica = JSON.parse(JSON.stringify(química))
+let cópiaFísica = JSON.parse(JSON.stringify(física))
 
-    localStorage.setItem("portuguêsDados", JSON.stringify(português))
-    localStorage.setItem("espanholDados", JSON.stringify(espanhol))
-    localStorage.setItem("matemáticaDados", JSON.stringify(matemática))
-    localStorage.setItem("biologiaDados", JSON.stringify(biologia))
-    localStorage.setItem("geografiaDados", JSON.stringify(geografia))
-    localStorage.setItem("históriaDados", JSON.stringify(história))
-    localStorage.setItem("químicaDados", JSON.stringify(química))
-    localStorage.setItem("físicaDados", JSON.stringify(física))
-
+const acessarCópia = {
+    Português: cópiaPortuguês,
+    Espanhol: cópiaEspanhol,
+    Matemática: cópiaMatemática,
+    Biologia: cópiaBiologia,
+    Geografia: cópiaGeografia,
+    História: cópiaHistória,
+    Química: cópiaQuímica,
+    Física: cópiaFísica
 }
